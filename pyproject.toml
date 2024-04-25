@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "capitalize-test"
+version = "0.1.0"
+description = ""
+authors = ["qffo <075viktor@mail.ru>"]
+readme = "README.md"
+packages = [{ include = "capitalize_test" },]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
